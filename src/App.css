@@ -1,0 +1,34 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: black;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.gradient-green {
+  background: linear-gradient(to right, #00ff00, #008000);
+}
+
+.gradient-purple {
+  background: linear-gradient(to right, #800080, #dda0dd);
+}
+
+.gradient-blue {
+  background: linear-gradient(to right, #0000ff, #00ffff);
+}
+
+svg {
+  height: 90vh;
+  max-height: 300px;
+  border: solid 2px white;
+  overflow: visible;
+}
